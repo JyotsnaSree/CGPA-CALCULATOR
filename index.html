@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+
+  <!-- META TAGS -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- ANIMATIONS -->
+  <link  rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
+  <!-- FAVICON -->
+  <link rel="icon" href="ICON.ico">
+  <!-- STLYESHEETS CSS -->
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css">
+  <!-- GOOGLE FONTS -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Roboto+Condensed&display=swap" rel="stylesheet">
+<!-- TABLE RESPONSIVE -->
+<!-- Add the styles -->
+<link href="responsive-tables.css" type="text/css" media="screen" rel="stylesheet"/>
+<!-- Add the JS plugin -->
+<script type="text/javascript" src="responsive-tables.js"></script>
+  <title>VIT CGPA CALCULATOR</title>
+</head>
+
+<body>
+  <section class="colored-section" id="title">
+
+    <div class="container-fluid">
+
+      <!-- Nav Bar -->
+      <div class="top-container">
+        <nav class="navbar navbar-expand-lg navbar-dark " style="color:#f6f6e9;">
+
+  <a class="navbar-brand animate__animated animate__heartBeat" href="#" style="color:#f6f6e9;" ><img src="download.jpg" width="90px" height="90px" alt="">  VIT GRADE CALCULATOR</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" style="color:#f6f6e9;" id="navbarNav">
+    <ul class="navbar-nav" style="color:#f6f6e9;">
+      <li class="nav-item active">
+        <a class="nav-link animate__animated animate__shakeY" href="#cgpaC" style="color:#f6f6e9;">CGPA</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link animate__animated animate__shakeY" href="#gpaC" style="color:#f6f6e9;">GPA</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link animate__animated animate__shakeY" href="#about" style="color:#f6f6e9;">ABOUT</a>
+      </li>
+
+    </ul>
+  </div>
+</nav>
+
+      </div>
+
+
+      <hr class="one">
+      <br>
+      <br>
+      <br>
+      <div class="cgpa">
+        <section id="cgpaC" class="cgpaCC">
+          <h2 class="animate__animated animate__heartBeat">Calculate CGPA</h2>
+
+
+
+      </div>
+      <br>
+
+      <div class="outer-table">
+        <table class="  table-responsive table table-hover table-bordered " cellspacing="20">
+          <thead>
+            <tr class="rows-names">
+              <th scope="col" style="color:#13334c;">SEMESTER</th>
+              <th scope="col" style="color:#13334c;">CREDITS</th>
+              <th scope="col" style="color:#13334c;">GPA</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th class="semname" scope="row">SEMESTER-1</th>
+              <td>
+                <form>
+                  <div class="form-group row">
+
+                    <div class="col-sm-5 border">
+                      <input type="text" id="sem1c" class="form-control " id="colFormLabelSm" placeholder="CREDITS">
+                    </div>
+
+                </form>
+              </td>
+
+              <td>
+                <form class="b1">
+                  <div class="form-group row">
+                    <div class="col-sm-5">
+                      <input type="text" max="10" id="sem1gpa" class="form-control " id="colFormLabelSm" placeholder="GPA">
+                    </div>
+                  </div>
+            </tr>
+            <tr>
+              <th class="semname" scope="row">SEMESTER-2</th>
+              <td>
+                <form>
+                  <div class="form-group row">
+
+                    <div class="col-sm-5">
+                      <input type="text" id="sem2c" class="form-control " id="colFormLabelSm" placeholder="CREDITS">
+                    </div>
+
+                </form>
+              </td>
+
+              <td>
+                <form class="b1">
+                  <div class="form-group row">
+                    <div class="col-sm-5">
+                      <input type="text" max="10" id="sem2gpa" class="form-control " id="colFormLabelSm" placeholder="GPA">
+                    </div>
+                  </div>
+            </tr>
+            <tr>
+              <th class="semname" scope="row">SEMESTER-3</th>
+              <td>
+                <form>
+                  <div class="form-group row">
+
+                    <div class="col-sm-5">
+                      <input type="text" id="sem3c" class="form-control " id="colFormLabelSm" placeholder="CREDITS">
+                    </div>
+
+                </form>
+              </td>
+
+              <td>
+                <form class="b1">
+                  <div class="form-group row">
+                    <div class="col-sm-5">
+                      <input type="text" max="10" id="sem3gpa" class="form-control " id="colFormLabelSm" placeholder="GPA">
+                    </div>
+                  </div>
+            </tr>
+            <tr>
+              <th class="semname" scope="row">SEMESTER-4</th>
+              <td>
+                <form>
+                  <div class="form-group row">
+
+                    <div class="col-sm-5">
+                      <input type="text" id="sem4c" class="form-control " id="colFormLabelSm" placeholder="CREDITS">
+                    </div>
+
+                </form>
+              </td>
+
+              <td>
+                <form class="b1">
+                  <div class="form-group row">
+                    <div class="col-sm-5">
+                      <input type="text" max="10" id="sem4gpa" class="form-control " id="colFormLabelSm" placeholder="GPA">
+                    </div>
+                  </div>
+            </tr>
+            <tr>
+              <th class="semname" scope="row">SEMESTER-5</th>
+              <td>
+                <form>
+                  <div class="form-group row">
+
+                    <div class="col-sm-5">
+                      <input type="text" id="sem5c" class="form-control " id="colFormLabelSm" placeholder="CREDITS">
+                    </div>
+
+                </form>
+              </td>
+
+              <td>
+                <form class="b1">
+                  <div class="form-group row">
+                    <div class="col-sm-5">
+                      <input type="text" max="10" id="sem5gpa" class="form-control " id="colFormLabelSm" placeholder="GPA">
+                    </div>
+                  </div>
+            </tr>
+            <tr>
+              <th class="semname" scope="row">SEMESTER-6</th>
+              <td>
+                <form>
+                  <div class="form-group row">
+
+                    <div class="col-sm-5">
+                      <input type="text" id="sem6c" class="form-control " id="colFormLabelSm" placeholder="CREDITS">
+                    </div>
+
+                </form>
+              </td>
+
+              <td>
+                <form class="b1">
+                  <div class="form-group row">
+                    <div class="col-sm-5">
+                      <input type="text" max="10" id="sem6gpa" class="form-control " id="colFormLabelSm" placeholder="GPA">
+                    </div>
+                  </div>
+            </tr>
+            <tr>
+              <th class="semname" scope="row">SEMESTER-7</th>
+              <td>
+                <form>
+                  <div class="form-group row">
+
+                    <div class="col-sm-5">
+                      <input type="text" id="sem7c" class="form-control " id="colFormLabelSm" placeholder="CREDITS">
+                    </div>
+
+                </form>
+              </td>
+
+              <td>
+                <form class="b1">
+                  <div class="form-group row">
+                    <div class="col-sm-5">
+                      <input type="text" id="sem7gpa" class="form-control " id="colFormLabelSm" placeholder="GPA">
+                    </div>
+                  </div>
+            </tr>
+            <tr>
+              <th class="semname" scope="row">SEMESTER-8</th>
+              <td>
+                <form>
+                  <div class="form-group row">
+
+                    <div class="col-sm-5">
+                      <input type="text" id="sem8c" class="form-control " id="colFormLabelSm" placeholder="CREDITS">
+                    </div>
+
+                </form>
+              </td>
+
+              <td>
+                <form class="b1">
+                  <div class="form-group row">
+                    <div class="col-sm-5">
+                      <input type="text" id="sem8gpa" class="form-control " id="colFormLabelSm" placeholder="GPA">
+                    </div>
+                  </div>
+            </tr>
+        </table>
+        <button type="button" class="btn btn-primary btn-lg" onclick="calculate1()">CGPA</button>
+        <div id="result1">
+
+
+        </div>
+
+
+
+
+        <hr class="ending animate__animated animate__shakeX">
+      </div>
+  </section>
+  <div class="gpa">
+    <section id="gpaC" class="gpaCC">
+      <h2 class="animate__animated animate__heartBeat">Calculate GPA</h2>
+
+
+
+  </div>
+
+  <br>
+  <div class="outer-table">
+    <table class=" table-responsive table2 table table-hover table-bordered " cellspacing="20">
+      <thead>
+        <tr class="rows-names">
+          <th scope="col" style="color:#13334c;">COURSES</th>
+          <th scope="col" style="color:#13334c;">CREDITS</th>
+          <th scope="col" style="color:#13334c;">GRADE</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th class="semname" scope="row">SUBJECT-1</th>
+          <td><select class=" cre form-control-1 form-control-sm borderless" name="credit1" id="c1">
+              <option class="name">CREDITS</option>
+              <option value="four">4</option>
+              <option value="three">3</option>
+              <option value="two">2</option>
+              <option value="one">1</option>
+          </td></select>
+          <td><select class="gre form-control-1 form-control-sm " name="grade1" id="g1">
+              <option class="name">GRADE</option>
+              <option value="S">S</option>
+              <option value="A">A</option>
+              <option value="B">B</option>
+              <option value="C">C</option>
+              <option value="D">D</option>
+              <option value="E">E</option>
+              <option value="N">N</option>
+          </td></select>
+        </tr>
+        <tr>
+          <th class="semname" scope="row">SUBJECT-2</th>
+          <td><select class="  cre form-control-1 form-control-sm borderless" name="credit2" id="c2">
+              <option class="name">CREDITS</option>
+              <option value="four">4</option>
+              <option value="three">3</option>
+              <option value="two">2</option>
+              <option value="one">1</option>
+          </td></select>
+          <td><select class=" gre form-control-1 form-control-sm " name="grade2" id="g2">
+              <option class="name">GRADE</option>
+              <option value="S">S</option>
+              <option value="A">A</option>
+              <option value="B">B</option>
+              <option value="C">C</option>
+              <option value="D">D</option>
+              <option value="E">E</option>
+              <option value="N">N</option>
+          </td></select>
+
+        </tr>
+        <tr>
+          <th class="semname" scope="row">SUBJECT-3</th>
+          <td><select class=" cre form-control-1 form-control-sm borderless" name="credit3" id="c3">
+              <option class="name">CREDITS</option>
+              <option value="four">4</option>
+              <option value="three">3</option>
+              <option value="two">2</option>
+              <option value="one">1</option>
+          </td></select>
+          <td><select class="gre form-control-1 form-control-sm " name="grade3" id="g3">
+              <option class="name">GRADE</option>
+              <option value="S">S</option>
+              <option value="A">A</option>
+              <option value="B">B</option>
+              <option value="C">C</option>
+              <option value="D">D</option>
+              <option value="E">E</option>
+              <option value="N">N</option>
+          </td></select>
+
+        </tr>
+        <tr>
+          <th class="semname" scope="row">SUBJECT-4</th>
+          <td><select class=" cre form-control-1 form-control-sm borderless" name="credit4" id="c4">
+              <option class="name">CREDITS</option>
+              <option value="four">4</option>
+              <option value="three">3</option>
+              <option value="two">2</option>
+              <option value="one">1</option>
+          </td></select>
+          <td><select class="gre form-control-1 form-control-sm " name="grade4" id="g4">
+              <option class="name">GRADE</option>
+              <option value="S">S</option>
+              <option value="A">A</option>
+              <option value="B">B</option>
+              <option value="C">C</option>
+              <option value="D">D</option>
+              <option value="E">E</option>
+              <option value="N">N</option>
+          </td></select>
+
+        </tr>
+        <tr>
+          <th class="semname" scope="row">SUBJECT-5</th>
+          <td><select class="cre form-control-1 form-control-sm borderless" name="credit5" id="c5">
+              <option class="name">CREDITS</option>
+              <option value="four">4</option>
+              <option value="three">3</option>
+              <option value="two">2</option>
+              <option value="one">1</option>
+          </td></select>
+          <td><select class="gre form-control-1 form-control-sm " name="grade5" id="g5">
+              <option class="name">GRADE</option>
+              <option value="S">S</option>
+              <option value="A">A</option>
+              <option value="B">B</option>
+              <option value="C">C</option>
+              <option value="D">D</option>
+              <option value="E">E</option>
+              <option value="N">N</option>
+          </td></select>
+
+        </tr>
+        <tr>
+          <th class="semname" scope="row">SUBJECT-6</th>
+          <td><select class="cre form-control-1 form-control-sm borderless" name="credit6" id="c6">
+              <option class="name">CREDITS</option>
+              <option value="four">4</option>
+              <option value="three">3</option>
+              <option value="two">2</option>
+              <option value="one">1</option>
+          </td></select>
+          <td><select class="gre form-control-1 form-control-sm " name="grade6" id="g6">
+              <option class="name">GRADE</option>
+              <option value="S">S</option>
+              <option value="A">A</option>
+              <option value="B">B</option>
+              <option value="C">C</option>
+              <option value="D">D</option>
+              <option value="E">E</option>
+              <option value="N">N</option>
+          </td></select>
+
+        </tr>
+        <tr>
+          <th class="semname" scope="row">SUBJECT-7</th>
+          <td><select class="cre form-control-1 form-control-sm borderless" name="credit7" id="c7">
+              <option class="name">CREDITS</option>
+              <option value="four">4</option>
+              <option value="three">3</option>
+              <option value="two">2</option>
+              <option value="one">1</option>
+          </td></select>
+          <td><select class="gre form-control-1 form-control-sm " name="grade7" id="g7">
+              <option class="name">GRADE</option>
+              <option value="S">S</option>
+              <option value="A">A</option>
+              <option value="B">B</option>
+              <option value="C">C</option>
+              <option value="D">D</option>
+              <option value="E">E</option>
+              <option value="F">N</option>
+          </td></select>
+
+        </tr>
+        <tr>
+          <th class="semname" scope="row">SUBJECT-8</th>
+          <td><select class="cre  form-control-1 form-control-sm borderless" name="credit8" id="c8">
+              <option class="name">CREDITS</option>
+              <option value="four">4</option>
+              <option value="three">3</option>
+              <option value="two">2</option>
+              <option value="one">1</option>
+          </td></select>
+          <td><select class="gre form-control-1 form-control-sm " name="grade8" id="g8">
+              <option class="name">GRADE</option>
+              <option value="S">S</option>
+              <option value="A">A</option>
+              <option value="B">B</option>
+              <option value="C">C</option>
+              <option value="D">D</option>
+              <option value="E">E</option>
+              <option value="N">N</option>
+          </td></select>
+
+        </tr>
+        <tr>
+          <th class="semname" scope="row">SUBJECT-9</th>
+          <td><select class="cre form-control-1 form-control-sm borderless" name="credit9" id="c9">
+              <option class="name">CREDITS</option>
+              <option value="four">4</option>
+              <option value="three">3</option>
+              <option value="two">2</option>
+              <option value="one">1</option>
+          </td></select>
+          <td><select class="gre form-control-1 form-control-sm " name="grade9" id="g9">
+              <option class="name">GRADE</option>
+              <option value="S">S</option>
+              <option value="A">A</option>
+              <option value="B">B</option>
+              <option value="C">C</option>
+              <option value="D">D</option>
+              <option value="E">E</option>
+              <option value="F">N</option>
+          </td></select>
+
+        </tr>
+
+        <tr>
+          <th class="semname" scope="row">SUBJECT-10</th>
+          <td><select class="cre form-control-1 form-control-sm borderless" name="credit10" id="cr10">
+              <option class="name">CREDITS</option>
+              <option value="four">4</option>
+              <option value="three">3</option>
+              <option value="two">2</option>
+              <option value="one">1</option>
+          </td></select>
+          <td><select class="gre form-control-1 form-control-sm bordered " name="grade10" id="g10">
+              <option class="name">GRADE</option>
+              <option value="S">S</option>
+              <option value="A">A</option>
+              <option value="B">B</option>
+              <option value="C">C</option>
+              <option value="D">D</option>
+              <option value="E">E</option>
+              <option value="F">N</option>
+          </td></select>
+
+        </tr>
+        <tr>
+          <th class="semname" scope="row">SUBJECT-11</th>
+          <td><select class="cre form-control-1 form-control-sm borderless" name="credit11" id="cr11">
+              <option class="name">CREDITS</option>
+              <option value="four">4</option>
+              <option value="three">3</option>
+              <option value="two">2</option>
+              <option value="one">1</option>
+          </td></select>
+          <td><select class="gre form-control-1 form-control-sm " name="grade11" id="g11">
+              <option class="name">GRADE</option>
+              <option value="S">S</option>
+              <option value="A">A</option>
+              <option value="B">B</option>
+              <option value="C">C</option>
+              <option value="D">D</option>
+              <option value="E">E</option>
+              <option value="F">N</option>
+          </td></select>
+
+        </tr>
+
+
+    </table>
+    <button type="button" class="btn btn-primary btn-lg" onclick="calculate2()">GPA</button><br>
+
+    <div id="result2">
+
+
+
+    </div>
+    <hr class="ending animate__animated animate__shakeX">
+  </div>
+
+  </section>
+  <div class="bottom-container">
+    <section id="about">
+      <p class="copyright">© 2020 Jyotsna Malla.</p>
+
+    </section>
+
+  </div>
+  <script src="script2.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+
+
+
+
+
+
+
+
+</html>
